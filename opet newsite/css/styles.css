@@ -1,0 +1,98 @@
+body {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border: 5px;
+  color: #EAF6F6;
+  border-radius: 5px;
+  border-style: none none dotted;
+  width: 10%;
+}
+
+h1 {
+  color: #4AB19A;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #1F836C;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #44B29A;
+}
+
+p {
+  color: #545454;
+}
+
+a {
+  text-decoration: none;
+  color: #545454;
+}
+
+/*******************CLASS SELECTOR******************/
+.top-container {
+  background-color: #E0EBE8;
+  width: auto;
+  height: 400px;
+  margin: auto;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: white;
+  width: auto;
+  height: auto;
+}
+
+.bottom-container {
+  background-color: #C4DED7;
+  width: auto;
+  height: 200px;
+}
+
+.head {
+  top: 100px;
+  line-height: 300%;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.skill-row {
+width: 50%;
+margin: 100px auto 100px auto ;
+line-height: 2;
+text-align: left;
+}
+
+.contact-me {
+  margin: 100px auto 100px auto ;
+}
+/**********************IMAGES***************************/
+.heart-img {
+  width: 110px;
+  height: 60px;
+}
+.html-img {
+  width: 220px;
+ float: left;
+ margin-left: 30px;
+}
+
+.css-img {
+  width: 220px;
+  float: right;
+  margin-right: 30px;
+}
